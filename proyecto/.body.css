@@ -1,0 +1,142 @@
+
+body{
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+header{
+    background-image: url(m1.jpg);
+    height: 550px;
+    background-size: cover;
+}
+
+.escribiendo{
+    display: inline-block;
+}
+
+.escribiendo{
+     flex: 100px;
+     background: #C6FFDD;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    font-family: Monospace;
+    
+}
+
+
+
+projects{
+    flex: 100%;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Monospace; 
+    padding: 30px;
+}
+
+.bg-black{
+    flex: 100%;
+    background-color: black;
+    padding: 20px;
+
+}
+
+general{
+    padding: 20px;
+    flex: 100%;
+    text-align: center;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.center {
+    padding: 40px 0;
+    border: 2px solid black;
+    text-align: center;
+}
+.pt-3 {
+    margin-top: 0.10rem !important;
+}
+.text-white {
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+
+
+  .social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook2 {
+	background: #2E406E;
+}
+
+.icon-github {
+	background: black;
+}
+
+.icon-whatsapp {
+	background: #5cfa2cea;
+}
+
+.icon-instagram {
+	background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
